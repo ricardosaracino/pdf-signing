@@ -1,0 +1,30 @@
+{
+  "name": "pdf-signing",
+  "version": "1.0.0",
+  "description": "sign a pdf with node",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ricardosaracino/pdf-signing.git"
+  },
+  "keywords": [
+    "pdf",
+    "node",
+    "pdfkit"
+  ],
+  "author": "Ricardo Saracino",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ricardosaracino/pdf-signing/issues"
+  },
+  "homepage": "https://github.com/ricardosaracino/pdf-signing#readme",
+  "dependencies": {
+    "fs": "0.0.1-security",
+    "node-signpdf": "^0.3.0",
+    "path": "^0.12.7",
+    "pdfkit": "^0.8.3"
+  }
+}
